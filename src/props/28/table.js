@@ -5,7 +5,7 @@ const TableComponents=()=>{
 
     return(
       
-        <table style={"border: 2px solid black"}>
+        <table>
         <tbody>
           <tr>
             <th>Company</th>
