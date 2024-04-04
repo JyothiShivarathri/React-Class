@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.box1{
+  display:inline-block;
+  margin-left:80px;
+  padding:50px;
+}
+.b1{
+  height:400px;
+  width:400px;
+  padding:50px;
+  border:1px solid black;
+  border-radius: 20%;
+}
+table{
+  margin-top: 10px;
+}
+table,tr,td{
+  border:2px solid black;
+  border-collapse: collapse;
+}
+.Heading{
+  margin-left: 800px;
+  margin-top:-580px;
+}
+.Image{
+  margin-left: 800px;
+}
+.list{
+  margin-left: 800px;
+}
+.form{
+  margin-left: 800px;
+}
+.Table{
+  margin-left: 800px;
+}
+.h1{
+  margin-left: 100px;
+}
+.img{
+  margin-left: 100px;
+}
+.li{
+  margin-left: 100px;
+}
+.lg{
+  margin-left: 100px;
+}
+.Tb{
+  margin-left: 100px;
+}
+
