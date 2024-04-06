@@ -61,4 +61,23 @@ table,tr,td{
 .Tb{
   margin-left: 100px;
 }
+.tableComponent tr{
+  border:2px solid black;
+}
+.tableComponent th{
+  border:2px solid black;
+}
+.tableComponent td{
+  border:2px solid black;
+}
+.TableRow td{
+  border:2px solid black;
 
+}
+.ste td{
+  border:2px solid black;
+}
+.Tablespace{
+  margin-left: 500px;
+  margin-top: -500px;
+}

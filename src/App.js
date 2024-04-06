@@ -22,6 +22,9 @@ import Filterdata from './props/28/task/fiteremp';
 import { employees } from './props/28/task/dataemp';
 import { imagesData } from './27/imagesdata';
 import DisplayImages from './27/imagesprop';
+import Tableshow from './27/task2/tableshow';
+import FoodList from './props/28/conrendering/itemshow';
+import Button1Component from './classComponents/practice02/button';
 // var a=[
 //   {
 //     "id": 1,
@@ -53,16 +56,17 @@ import DisplayImages from './27/imagesprop';
 function App(){
   return(
     <>
-   {/* <BasicExample></BasicExample> */}
-  
-   {/* <WithLabelExample></WithLabelExample>
+   {/* <BasicExample></BasicExample> 
+   <WithLabelExample></WithLabelExample>
    <ShapeExample></ShapeExample>
    <TableComponents></TableComponents>
    <Spinner></Spinner> */}
-   {<Filterdata employees={employees}></Filterdata>}
-   <DisplayImages imagesData={imagesData}></DisplayImages>
+   {/* <Filterdata employees={employees}></Filterdata> */}
+   {/* <DisplayImages imagesData={imagesData}></DisplayImages>
+   <Tableshow></Tableshow>*/}
+   {/* <FoodList></FoodList>  */}
+   <Button1Component></Button1Component>
    
-
    </>
   )
 };
