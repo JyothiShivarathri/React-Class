@@ -22,6 +22,7 @@ import Filterdata from './props/28/task/fiteremp';
 import { employees } from './props/28/task/dataemp';
 import { imagesData } from './27/imagesdata';
 import DisplayImages from './27/imagesprop';
+import AddImages from './2/imgadd'
 // var a=[
 //   {
 //     "id": 1,
@@ -59,8 +60,9 @@ function App(){
    <ShapeExample></ShapeExample>
    <TableComponents></TableComponents>
    <Spinner></Spinner> */}
-   {<Filterdata employees={employees}></Filterdata>}
-   <DisplayImages imagesData={imagesData}></DisplayImages>
+   {/* {<Filterdata employees={employees}></Filterdata>}
+   <DisplayImages imagesData={imagesData}></DisplayImages> */}
+   <AddImages></AddImages>
    
 
    </>
