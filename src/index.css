@@ -62,6 +62,25 @@ table,tr,td{
   margin-left: 100px;
 }
 
-.listImage{
+.imagesdiv{
+  height:300px;
+  width:200px;
+  display: inline-block;
+  border:2px solid black;
+  border-radius:10px ;
+  padding: 10px;
   margin-left: 100px;
+}
+.ProductList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  margin: 60px;
+  gap:30px
+}
+.Cards{
+width:30.33%;
+border-radius: 10px;
+padding:50px;
+border:2px solid black;
 }

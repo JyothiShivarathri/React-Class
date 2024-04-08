@@ -26,6 +26,20 @@ class AddImages extends Component{
         }
       )
     }
+    updateImage=(index)=>{
+       
+        const update=this.state.images.map((eachImg,i)=>{
+            if(i===index){
+                return this.state.newImg
+            }
+            else{
+                return eachImg
+            }
+    })
+        this.setState({
+            images:update
+        })
+    }
 
     render(){
         return(
@@ -33,10 +47,12 @@ class AddImages extends Component{
             <button onClick={this.AddImage}>Add</button>
             {
             this.state.images.map((eachImage,index)=>(
-                <>
-               <img className="listImage" src={eachImage} alt="dogs" height={200} width={200}></img>
-               <button style={{marginLeft:10}}onClick={()=>this.deleteImage(index)}>delete</button>
-               </>
+            
+              <div className="imagesdiv" key={index}>
+               <img className="listImage" src={eachImage} alt="dogs" height={150} width={150}></img>
+               <button style={{marginTop:30}}onClick={()=>this.deleteImage(index)}>delete</button>
+               <button style={{marginTop:30}}onClick={()=>this.updateImage(index)}>Update</button>
+               </div>
             ))
            }
             </>

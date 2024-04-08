@@ -23,6 +23,7 @@ import { employees } from './props/28/task/dataemp';
 import { imagesData } from './27/imagesdata';
 import DisplayImages from './27/imagesprop';
 import AddImages from './2/imgadd'
+import ProductList from './lifestyle/product';
 // var a=[
 //   {
 //     "id": 1,
@@ -63,6 +64,7 @@ function App(){
    {/* {<Filterdata employees={employees}></Filterdata>}
    <DisplayImages imagesData={imagesData}></DisplayImages> */}
    <AddImages></AddImages>
+   <ProductList></ProductList>
    
 
    </>
