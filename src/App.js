@@ -24,6 +24,10 @@ import { imagesData } from './27/imagesdata';
 import DisplayImages from './27/imagesprop';
 import AddImages from './2/imgadd'
 import ProductList from './lifestyle/product';
+import UseStateExample from './hooks/example1';
+import UseStateExample2 from './hooks/example2';
+import UseStateExample3 from './hooks/example3';
+import Formref from './hooks/forms/useexample';
 // var a=[
 //   {
 //     "id": 1,
@@ -63,9 +67,15 @@ function App(){
    <Spinner></Spinner> */}
    {/* {<Filterdata employees={employees}></Filterdata>}
    <DisplayImages imagesData={imagesData}></DisplayImages> */}
-   <AddImages></AddImages>
-   <ProductList></ProductList>
-   
+   {/* <AddImages></AddImages>*/}
+   <ProductList></ProductList>  
+   {/* {<UseStateExample></UseStateExample> } */}
+  {/* <UseStateExample2></UseStateExample2> */}
+  <UseStateExample3></UseStateExample3>
+
+
+
+
 
    </>
   )
