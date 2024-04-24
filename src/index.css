@@ -110,3 +110,48 @@ border:2px solid black;
 .form-control{
   background-color:black
 }
+.controllable{
+  margin-left:400px;
+  margin-top:100px;
+  padding:50px;
+  width:500px;
+  border:1px solid black;
+  border-radius: 10px;
+  background-color: bisque;
+}
+.headings{
+  border:1px solid black
+}
+.tabledata{
+  margin-left:400px;
+}
+.quote{
+  margin-left: 300px;
+  border:2px solid black;
+  margin-top:100px;
+  margin-right:300px;
+  padding:30px;
+  background-color: rgb(233, 220, 159);
+}
+.butngp{
+   margin-top: 100px;
+  margin-left:450px;
+  height:50px;
+  width:100px;
+  border-radius: 10px;
+  color:white;
+  background-color: black;
+  font-size:20px;
+  font-weight: bold;
+
+
+}
+.Cards{
+width:30.33%;
+border-radius: 10px;
+padding:50px;
+border:2px solid black;
+}
+.Cart{
+  z-index: 1;
+}

@@ -28,6 +28,14 @@ import UseStateExample from './hooks/example1';
 import UseStateExample2 from './hooks/example2';
 import UseStateExample3 from './hooks/example3';
 import Formref from './hooks/forms/useexample';
+import Controllable from './hooks/uncontralble';
+import ControlledComponent from './hooks/controllable2';
+import UseEffectExample2 from './hooks/useEffectEx2';
+import NavigationStack from './navigation/navigation-stack';
+import UseEffectExample1 from './hooks/useEffect1';
+import DomManipulation from './hooks/domman';
+import Login from './navigation-sections/login';
+import Signup from './navigation-sections/signup';
 // var a=[
 //   {
 //     "id": 1,
@@ -68,10 +76,18 @@ function App(){
    {/* {<Filterdata employees={employees}></Filterdata>}
    <DisplayImages imagesData={imagesData}></DisplayImages> */}
    {/* <AddImages></AddImages>*/}
-   <ProductList></ProductList>  
+   {/* <ProductList></ProductList>   */}
    {/* {<UseStateExample></UseStateExample> } */}
   {/* <UseStateExample2></UseStateExample2> */}
-  <UseStateExample3></UseStateExample3>
+  {/* <UseStateExample3></UseStateExample3> */}
+  {/* <Controllable></Controllable> */}
+  {/* <ControlledComponent></ControlledComponent> */}
+  {/* <UseEffectExample1></UseEffectExample1> */}
+   <NavigationStack></NavigationStack>
+   {/* <Login></Login> 
+   <Signup></Signup> */}
+  {/* <DomManipulation></DomManipulation> */} 
+
 
 
 
